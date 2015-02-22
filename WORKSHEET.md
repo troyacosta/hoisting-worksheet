@@ -54,6 +54,7 @@ function test() {
 		console.log('Switch flag from false to true');
 	}
 }
+test();
 ```
 
 > output:
@@ -81,47 +82,6 @@ function test() {
 >-
 >-
 
-```js
-var flag = true; 
-  
-function test() {
-	if(flag) {
-		var flag = false;
-		console.log('Switch flag from true to false');
-	}
-	else {
-		flag = true;
-		console.log('Switch flag from false to true');
-	}
-}
-
-test()
-```
-
-> output:
->-
->-
->-
-> why?
->-
->-
->-
->-
->-
->-
-> rewrite without hoisting
->-
->-
->-
->-
->-
->-
->-
->-
->-
->-
->-
->-
 
 ```js
 var message = 'Hello world'; 
@@ -130,6 +90,7 @@ function saySomething() {
 	console.log(message);
 	var message = 'Foo bar';
 }
+saySomething();
 ```
 
 > output:
@@ -164,6 +125,7 @@ function saySomething() {
 	console.log(message);
 	message = 'Foo bar';
 }
+saySomething();
 ```
 
 > output:
@@ -216,19 +178,7 @@ test();
 >-
 >-
 >-
-> rewrite without hoisting
->-
->-
->-
->-
->-
->-
->-
->-
->-
->-
->-
->-
+
 
 ```js
 (function() {
@@ -284,6 +234,7 @@ function fancy(arg1, arg2) {
 		console.log('Will I run?');
 	}
 }
+fancy();
 ```
 
 > output:
@@ -326,6 +277,7 @@ function fancy(arg1, arg2) {
 		console.log('Will I run?');
 	}
 }
+fancy();
 ```
 
 > output:
