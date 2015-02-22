@@ -56,6 +56,31 @@ function test() {
 }
 ```
 
+> output:
+>-
+>-
+>-
+> why?
+>-
+>-
+>-
+>-
+>-
+>-
+> rewrite without hoisting
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+
 ```js
 var flag = true; 
   
@@ -73,6 +98,31 @@ function test() {
 test()
 ```
 
+> output:
+>-
+>-
+>-
+> why?
+>-
+>-
+>-
+>-
+>-
+>-
+> rewrite without hoisting
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+
 ```js
 var message = 'Hello world'; 
   
@@ -82,6 +132,31 @@ function saySomething() {
 }
 ```
 
+> output:
+>-
+>-
+>-
+> why?
+>-
+>-
+>-
+>-
+>-
+>-
+> rewrite without hoisting
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+
 ```js
 var message = 'Hello world'; 
   
@@ -90,6 +165,31 @@ function saySomething() {
 	message = 'Foo bar';
 }
 ```
+
+> output:
+>-
+>-
+>-
+> why?
+>-
+>-
+>-
+>-
+>-
+>-
+> rewrite without hoisting
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
 
 ```js
 function test() {
@@ -105,6 +205,31 @@ function test() {
 test();
 ```
 
+> output:
+>-
+>-
+>-
+> why?
+>-
+>-
+>-
+>-
+>-
+>-
+> rewrite without hoisting
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+
 ```js
 (function() {
 	console.log(bar);
@@ -118,6 +243,31 @@ test();
 	baz = 2;
 })();
 ```
+
+> output:
+>-
+>-
+>-
+> why?
+>-
+>-
+>-
+>-
+>-
+>-
+> rewrite without hoisting
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
 
 ```js
 var run = false;
@@ -136,6 +286,31 @@ function fancy(arg1, arg2) {
 }
 ```
 
+> output:
+>-
+>-
+>-
+> why?
+>-
+>-
+>-
+>-
+>-
+>-
+> rewrite without hoisting
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+
 ```js
 var run = false;
 
@@ -152,3 +327,28 @@ function fancy(arg1, arg2) {
 	}
 }
 ```
+
+> output:
+>-
+>-
+>-
+> why?
+>-
+>-
+>-
+>-
+>-
+>-
+> rewrite without hoisting
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
