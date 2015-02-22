@@ -16,6 +16,31 @@ var myvar = 'my value';
 })();
 ```
 
+> output:
+>-
+>-
+>-
+> why?
+>-
+>-
+>-
+>-
+>-
+>-
+> rewrite without hoisting
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+
 ```js
 var flag = true; 
   
