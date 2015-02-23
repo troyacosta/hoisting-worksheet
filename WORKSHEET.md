@@ -139,19 +139,7 @@ saySomething();
 >-
 >-
 >-
-> rewrite without hoisting
->-
->-
->-
->-
->-
->-
->-
->-
->-
->-
->-
->-
+
 
 ```js
 function test() {
@@ -178,7 +166,19 @@ test();
 >-
 >-
 >-
-
+> rewrite without hoisting
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
+>-
 
 ```js
 (function() {
